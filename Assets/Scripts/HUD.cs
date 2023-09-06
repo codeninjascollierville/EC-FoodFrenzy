@@ -16,15 +16,18 @@ public class HUD : MonoBehaviour
     private int starIndex;
     private bool isGameOver;
 
-    void Start()
+    private void Start()
     {
-        
+        UpdateStars();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public void UpdateStars() {
+        for (int i = 0; i < stars.Length; i++) {
+            if (i == starIndex) {
+                stars[i].enabled = true;
+            } else {
+                stars[i].enabled = false;
+            }
+        }
     }
-
 }
