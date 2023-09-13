@@ -217,6 +217,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grid: {fileID: 581336197}
+  hud: {fileID: 1681341681}
   score1Star: 50000
   score2Star: 65000
   score3Star: 75000
@@ -353,6 +354,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5958081933807767038, guid: b1ddff09320f7034f8559d09bc38f814,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -87
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958081934662697180, guid: b1ddff09320f7034f8559d09bc38f814,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -87
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958081935538738653, guid: b1ddff09320f7034f8559d09bc38f814,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5961400237210502834, guid: b1ddff09320f7034f8559d09bc38f814,
+        type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 245619825}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1ddff09320f7034f8559d09bc38f814, type: 3}
 --- !u!1001 &396498918
@@ -685,3 +706,15 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1681341681 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5961400237210502834, guid: b1ddff09320f7034f8559d09bc38f814,
+    type: 3}
+  m_PrefabInstance: {fileID: 359259245}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8f446ca8b0da84aab98b64e7ce37a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
