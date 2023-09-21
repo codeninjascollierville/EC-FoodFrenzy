@@ -12,7 +12,6 @@ public class Level : MonoBehaviour
     };
 
     public GameGrid grid;
-    public HUD hud;
 
     public int score1Star;
     public int score2Star;
@@ -32,12 +31,7 @@ public class Level : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        type = LevelType.MOVES;
 
-        hud.SetLevelType(type);
-        hud.SetScore(currentScore);
-        hud.SetTarget(targetScore);
-        hud.SetRemaining(numMoves);
     }
 
     // Update is called once per frame
@@ -62,19 +56,13 @@ public class Level : MonoBehaviour
 
     public virtual void OnMove()
     {
-        base.OnMove();
-
-        movesUsed++;
-
-        hud.SetRemaining(numMoves - movesUsed);
+        
     }
 
     public virtual void OnPieceCleared(GamePiece piece)
     {
         //Update Score
         currentScore += piece.score;
-
-        hud.SetScore(currentScore);
     }
 
     protected virtual IEnumerator WaitForGridFill()
@@ -82,12 +70,6 @@ public class Level : MonoBehaviour
         while (grid.IsFilling)
         {
             yield return 0;
-        }
-
-        if (didWin && !grid.IsFilling) {
-            hud.OnGameWin(currentScore);
-        } else {
-            hud.OnGameLose();
         }
 
     }

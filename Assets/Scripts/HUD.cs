@@ -62,6 +62,19 @@ public class HUD : MonoBehaviour
         remainingText.text = remaining;
     }
 
+    protected virtual IEnumerator WaitForGridFill() {
+        while (grid.IsFilling) {
+            yield return 0;
+        }
+
+        if (didWin && !grid.IsFilling) {
+            hud.OnGameWin(currentScore);
+        }
+        else {
+            hud.OnGameLose();
+        }
+    }
+
     public void SetLevelType (Level.LevelType type) {
         switch(type) {
             case Level.LevelType.MOVES:
