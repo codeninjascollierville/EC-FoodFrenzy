@@ -696,15 +696,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5958081934094470958, guid: b1ddff09320f7034f8559d09bc38f814,
-        type: 3}
-      propertyPath: m_CullTransparentMesh
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5961400237210502834, guid: b1ddff09320f7034f8559d09bc38f814,
         type: 3}
       propertyPath: level
       value: 
       objectReference: {fileID: 245619825}
+    - target: {fileID: 6025884946810390970, guid: b1ddff09320f7034f8559d09bc38f814,
+        type: 3}
+      propertyPath: m_Name
+      value: GameOver
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1ddff09320f7034f8559d09bc38f814, type: 3}
+--- !u!1 &5958081934862493698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6025884946810390970, guid: b1ddff09320f7034f8559d09bc38f814,
+    type: 3}
+  m_PrefabInstance: {fileID: 5958081934862493697}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5958081934862493699
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5958081934862493698}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ec482654ebff1534db61c25b66f4f7e6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
