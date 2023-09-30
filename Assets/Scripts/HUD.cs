@@ -62,18 +62,18 @@ public class HUD : MonoBehaviour
         remainingText.text = remaining;
     }
 
-    protected virtual IEnumerator WaitForGridFill() {
-        while (grid.IsFilling) {
-            yield return 0;
-        }
+    // protected virtual IEnumerator WaitForGridFill() {
+    //     while (grid.IsFilling) {
+    //         yield return 0;
+    //     }
 
-        if (didWin && !grid.IsFilling) {
-            hud.OnGameWin(currentScore);
-        }
-        else {
-            hud.OnGameLose();
-        }
-    }
+    //     if (didWin && !grid.IsFilling) {
+    //         hud.OnGameWin(currentScore);
+    //     }
+    //     else {
+    //         hud.OnGameLose();
+    //     }
+    // }
 
     public void SetLevelType (Level.LevelType type) {
         switch(type) {
@@ -91,4 +91,13 @@ public class HUD : MonoBehaviour
     public void OnGameLose() {
         isGameOver = false;
     }
+
+    // public override void OnMove()
+    // {
+    //     base.OnMove();
+
+    //     movesUsed++;
+
+    //     hud.SetRemaining(numMoves - movesUsed);
+    // }
 }

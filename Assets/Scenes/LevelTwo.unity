@@ -278,6 +278,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -123
       objectReference: {fileID: 0}
+    - target: {fileID: 5961400237210502834, guid: b1ddff09320f7034f8559d09bc38f814,
+        type: 3}
+      propertyPath: level
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b1ddff09320f7034f8559d09bc38f814, type: 3}
 --- !u!114 &39837008 stripped
@@ -286,7 +291,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 39837007}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 911984592}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3d8f446ca8b0da84aab98b64e7ce37a9, type: 3}
@@ -384,16 +389,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 245619824}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6f1f9512339ee614bbc618c125f7567b, type: 3}
+  m_Script: {fileID: 11500000, guid: af2b1a57bbe5e1043826c2ebc5a5e2f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   grid: {fileID: 581336197}
   hud: {fileID: 39837008}
-  score1Star: 25000
-  score2Star: 27000
-  score3Star: 30000
-  numMoves: 10
-  obstacleTypes: 02000000
+  score1Star: 15000
+  score2Star: 18000
+  score3Star: 21000
+  numMoves: 14
+  targetScore: 15000
 --- !u!4 &245619826
 Transform:
   m_ObjectHideFlags: 0
@@ -524,7 +529,7 @@ MonoBehaviour:
   xDim: 9
   yDim: 9
   fillTime: 0.1
-  level: {fileID: 245619825}
+  level: {fileID: 0}
   piecePrefabs:
   - type: 0
     prefab: {fileID: 1593095187626863558, guid: cd4190dfd8bfb8c42b40501a5688bbd6,
@@ -777,3 +782,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &911984592 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5958081933698006220, guid: b1ddff09320f7034f8559d09bc38f814,
+    type: 3}
+  m_PrefabInstance: {fileID: 39837007}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &911984593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911984592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3a87a16ec7b30648ba876b923dce57b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grid: {fileID: 581336197}
+  hud: {fileID: 39837008}
+  score1Star: 25000
+  score2Star: 27000
+  score3Star: 30000
