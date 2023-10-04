@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript : MonoBehaviour
+public class GameOver : MonoBehaviour
 {
     public GameObject screenParent;
     public GameObject scoreParent;
@@ -25,7 +25,7 @@ public class NewBehaviourScript : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void ShowLose() {
+    public void ShowLose() {
         screenParent.SetActive(true);
         scoreParent.SetActive(false);
         loseText.enabled = true;
@@ -72,6 +72,6 @@ public class NewBehaviourScript : MonoBehaviour
     }
 
     public void OnDoneClicked() {
-        
+        SceneManager.LoadScene("LevelSelect");
     }
 }
