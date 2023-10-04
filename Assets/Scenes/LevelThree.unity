@@ -477,7 +477,7 @@ MonoBehaviour:
   xDim: 8
   yDim: 8
   fillTime: 0.1
-  level: {fileID: 0}
+  level: {fileID: 245619827}
   piecePrefabs:
   - type: 0
     prefab: {fileID: 1593095187626863558, guid: cd4190dfd8bfb8c42b40501a5688bbd6,

@@ -498,12 +498,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &969823509 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6025884946810390970, guid: b1ddff09320f7034f8559d09bc38f814,
-    type: 3}
-  m_PrefabInstance: {fileID: 5958081934862493697}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1320536911 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5961400237210502834, guid: b1ddff09320f7034f8559d09bc38f814,
@@ -596,25 +590,6 @@ PrefabInstance:
       propertyPath: grid
       value: 
       objectReference: {fileID: 581336197}
-    - target: {fileID: 1007810126, guid: b1ddff09320f7034f8559d09bc38f814, type: 3}
-      propertyPath: screenParent
-      value: 
-      objectReference: {fileID: 969823509}
-    - target: {fileID: 1565395890999504751, guid: b1ddff09320f7034f8559d09bc38f814,
-        type: 3}
-      propertyPath: m_Text
-      value: Try Again?
-      objectReference: {fileID: 0}
-    - target: {fileID: 5835878104737020100, guid: b1ddff09320f7034f8559d09bc38f814,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5835878104737020100, guid: b1ddff09320f7034f8559d09bc38f814,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 32.6
-      objectReference: {fileID: 0}
     - target: {fileID: 5958081933698006220, guid: b1ddff09320f7034f8559d09bc38f814,
         type: 3}
       propertyPath: m_Name

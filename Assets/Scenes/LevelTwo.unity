@@ -246,6 +246,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5958081933807767038, guid: b1ddff09320f7034f8559d09bc38f814,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -123
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958081934662697180, guid: b1ddff09320f7034f8559d09bc38f814,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -123
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958081934666761781, guid: b1ddff09320f7034f8559d09bc38f814,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -136.15929
+      objectReference: {fileID: 0}
+    - target: {fileID: 5958081935538738653, guid: b1ddff09320f7034f8559d09bc38f814,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -124
+      objectReference: {fileID: 0}
     - target: {fileID: 5961400237210502834, guid: b1ddff09320f7034f8559d09bc38f814,
         type: 3}
       propertyPath: level
@@ -497,7 +517,7 @@ MonoBehaviour:
   xDim: 9
   yDim: 9
   fillTime: 0.1
-  level: {fileID: 0}
+  level: {fileID: 245619825}
   piecePrefabs:
   - type: 0
     prefab: {fileID: 1593095187626863558, guid: cd4190dfd8bfb8c42b40501a5688bbd6,

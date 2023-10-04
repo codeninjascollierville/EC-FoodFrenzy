@@ -468,7 +468,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 13.2, y: -2.4}
+  m_AnchoredPosition: {x: 7, y: 32.6}
   m_SizeDelta: {x: 126.38922, y: 35.49707}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1324155638772441716
@@ -511,7 +511,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Try Again
+  m_Text: Try Again?
 --- !u!1 &5752504142099858566
 GameObject:
   m_ObjectHideFlags: 0
@@ -1999,7 +1999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40a85447a3072a44ea92921b16860386, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  screenParent: {fileID: 1255060673237915782}
+  screenParent: {fileID: 6025884946810390970}
   scoreParent: {fileID: 5958081935538738650}
   loseText: {fileID: 1565395890999504751}
   scoreText: {fileID: 4060834048113706554}
